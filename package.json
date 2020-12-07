@@ -1,0 +1,22 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Как установить мой проект.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisKoles/Profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrisKoles/Profile/issues"
+  },
+  "homepage": "https://github.com/KrisKoles/Profile#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
