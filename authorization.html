@@ -1,12 +1,57 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="ru-RU">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Главная страница</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="autor" content="Kris Koles" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about-me.css" />
   </head>
   <body>
-    <div>content</div>
-      <footer class="footer"></footer>
+    <div class="wrapper">
+      <div class="main-content"></div>
+      <header class="page-header">
+        <div class="container-big"></div>
+      </header>
+    </div>
+    <div class="form_auth_block">
+      <div class="form_auth_block_content">
+        <p class="form_auth_block_head_text">Авторизуйтесь</p>
+        <form class="form_auth_style" action="#" method="post">
+          <div>
+            <label>Логин</label>
+            <div><input type="email" name="auth_email" placeholder="" required /> </div>
+          </div>
+          <div>
+            <div><label>Пароль</label></div>
+            <input type="password" name="auth_pass" placeholder="" required />
+          </div>
+          <button
+            class="form_auth_button"
+            type="submit"
+            name="form_auth_submit"
+          >
+            Войти
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container"></div>
+      <div class="lock">
+        <a href="/login.html" class="lock-inner">Войти</a>
+      </div>
+      <div class="copyringht">
+        © 2020, При копировании материала ссылка на источник обязательна.
+      </div>
+    </footer>
+
+    <script src="js.main.js"></script>
   </body>
 </html>

@@ -1,14 +1,74 @@
-/* html, body {
+html,
+body {
   height: 100%;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  background-image: url(img/background.png)
-. content {
-  flex: 1 0 auto;
+  background: url(../img/background.png) repeat;
+  font: normal 1em "firasans-light";
+  color: #4a545d;
 }
-footer {
-  flex-shrink: 0;
+/* футер к низу */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  min-width: 970px;
+  height: auto !important;
 }
-*/
+.wrapper::after {
+  content: "";
+  height: 80px;
+  display: block;
+}
+.page-footer {
+  min-width: 970px;
+  height: 80px;
+  display: block;
+}
+/* футер к низу */
+
+/* Футер */
+.page-footer {
+  border: none;
+  background-color: #1c667a;
+  height: 2px;
+  font-family: "fira_sanslight";
+  color: #4a545d;
+}
+.page-footer .container {
+  padding-top: 23px;
+  position: relative;
+}
+.page-footer .copyright {
+  margin: 0 180px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 13px;
+}
+/* Логин
+.page-footer .lock{
+  position: absolute;
+  top: 26px;
+  left: 20px;
+}
+.lock .lock-inner {
+  display: block;
+  height: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  line-height: 2.2;
+  color: #4a545d;
+  text-decoration: none;
+  background: url() no-repeat;
+  padding-left: 24px;
+}
+.lock .lock-inner:hover{
+  text-decoration: underline;
+  background: url() no-repeat;
+}*/
+
+/* блок регистрации */
+
+.form_auth_block {
+  text-align: center;
+  padding: 10px;
+}
