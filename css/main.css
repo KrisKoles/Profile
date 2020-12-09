@@ -1,17 +1,18 @@
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 body {
   background: url(../img/background.png) repeat;
   font: normal 1em "firasans-light";
   color: #4a545d;
 }
-/* футер к низу */
+ /*  футер к низу */
 .wrapper {
   position: relative;
   min-height: 100%;
-  min-width: 970px;
+  min-width: 100%;
   height: auto !important;
 }
 .wrapper::after {
@@ -24,7 +25,6 @@ body {
   height: 80px;
   display: block;
 }
-/* футер к низу */
 
 /* Футер */
 .page-footer {
@@ -67,8 +67,23 @@ body {
 }*/
 
 /* блок регистрации */
-
+/* позиция на странице */
 .form_auth_block {
   text-align: center;
-  padding: 10px;
+  padding: 0px;
+  position: relative;
+  width: 299px; height: 283px;
+  background-color: #eff3f7;
+  border-radius: 2px;
+  margin: 84px 233px 10px 12px;
+
+}
+/* авторизуйтесь */
+.form_auth_block_head{
+background-color: #48cbe8;
+
+}
+
+.blue_line{
+  background-attachment: #67dffa;
 }
