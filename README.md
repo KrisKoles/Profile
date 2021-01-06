@@ -5,3 +5,6 @@
 3. yarn i
 4. npm i
 5. gulp
+
+
+go go go
